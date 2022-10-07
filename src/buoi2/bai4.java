@@ -1,16 +1,18 @@
 package buoi2;
+
+
 import java.util.Scanner;
 
 public class bai4 {
     public static void main(String[] args) {
-        int month=0;
+        int thang;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Mời bạn nhập tháng: ");
-        month = scanner.nextInt();
+        System.out.println("Moi ban nhap thang: ");
+        thang = scanner.nextInt();
 
-        switch (month) {
-            // các tháng 1, 3, 5, 7, 8, 10 và 12 có 31 ngày.
+        switch (thang) {
+
             case 1:
             case 3:
             case 5:
@@ -18,30 +20,30 @@ public class bai4 {
             case 8:
             case 10:
             case 12:
-                System.out.println("Tháng " + month + " có 31 ngày.");
+                System.out.println("Thang " + thang + " co 31 ngay.");
                 break;
 
-            // các tháng 4, 6, 9 và 11 có 30 ngày
+
             case 4:
             case 6:
             case 9:
             case 11:
-                System.out.println("Tháng " + month + " có 30 ngày.");
+                System.out.println("Thang " + thang + " cc 30 ngay.");
                 break;
 
-            // Riêng tháng 2 nếu là năm nhuận thì có 29 ngày, còn không thì có 28 ngày.
+
             case 2:
                 int year;
-                System.out.println("Mời bạn nhập năm: ");
+                System.out.println("Moi ban nhap nam: ");
                 year = scanner.nextInt();
                 if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-                    System.out.println("Tháng " + month + " năm " + year + " có 29 ngày.");
+                    System.out.println("Thang " + thang + " nam " + year + " có 29 ngay.");
                 } else {
-                    System.out.println("Tháng " + month + " năm " + year + " có 28 ngày.");
+                    System.out.println("Thang " + thang + " nam " + year + " có 28 ngay.");
                 }
                 break;
             default:
-                System.out.println("Nhập tháng không hợp lệ.");
+                System.out.println("Nhap thang khong hop le.");
         }
     }
 }
