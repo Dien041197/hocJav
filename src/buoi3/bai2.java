@@ -16,7 +16,7 @@ public class bai2 {
         }
         System.out.print("gia thua: "+giaithua);
         System.out.print("\ntich giai thua: "+tichgiaithua);
-        System.out.print("\ncac so chia het cho 3 va 7 la: ");
+        System.out.print("\ncac so chia het cho 3 hoac 7 la: ");
         for (int i=1;i<=n;i++){
             if(i%3==0||i%7==0){
                 System.out.print(i+" ");
