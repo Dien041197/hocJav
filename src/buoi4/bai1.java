@@ -25,7 +25,7 @@ public class bai1 {
         System.out.print("\nTổng chẵn là: "+sum);
 
         System.out.print("\nYêu cầu 4:");
-        System.out.print("\n-arr[]={");
+        System.out.print("\n-arr[]=");
         for (int i=0;i<arr.length;i++){
             if(i==args.length-1) {
                 if(arr[i]<0) {
