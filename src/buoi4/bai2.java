@@ -36,7 +36,22 @@ public class bai2 {
 //                    }
 //                }
 //            }
+//      }
+//        for (int i = 0; i < a.length; i++){
+//            for (int j = i + 1 ; j < i ; j++){
+//                for ( int c = 0 ; c < j ; c++ )
+//                if (a[i]==a[j]&&a[i]!=b[c]){
+//                    dem++;
+//                    if(dem==2){
+//                        System.out.print(a[i]);
+//                        dem=0;
+//                        b[c]=a[i];
+//
+//                    }
+//                }
+//            }
 //        }
+
 
     }
 }
