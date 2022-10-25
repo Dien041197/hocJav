@@ -11,9 +11,9 @@ public class SmartPhone {
         this.gam=gam;
         this.giaTien=giaTien;
     }
-    public SmartPhone{
+//    public SmartPhone{
 
-    }
+    //}
     public void setTenDienThoai(String tenDienThoai){
         this.tenDienThoai = tenDienThoai;
     }
